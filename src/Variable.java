@@ -10,7 +10,8 @@ public class Variable {
         float processor = 2.5f;
         double sizeCm = 33.02;
         char serialNumber = 'F';
-        boolean dev = true;
+        boolean isDev = true;
+
         System.out.println(sizeInch);
         System.out.println(year);
         System.out.println(ports);
@@ -18,12 +19,6 @@ public class Variable {
         System.out.println(processor);
         System.out.println(sizeCm);
         System.out.println(serialNumber);
-        System.out.println(dev);
-        //or
-        System.out.println(sizeInch + " " + year + " " + ports+ " " + memory + " " + processor + " " + sizeCm + " " + serialNumber + " " + dev);
-
-
-
-
+        System.out.println(isDev);
     }
 }

@@ -17,15 +17,14 @@ public class ConditionalStatement {
         }
         if (height < 1.80) {
             System.out.println("Height is under 1.80");
-        }else{
+        } else {
             System.out.println("Height is above 1.80");
         }
         if (firstLetterInName == "M") {
             System.out.println("The first letter in the name is M");
         } else if ((firstLetterInName == "I")) {
-
             System.out.println("The first letter in the name is I");
-        } else{
+        } else {
             System.out.println("The first letter in the name is unknown");
 
         }
