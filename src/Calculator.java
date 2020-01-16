@@ -4,7 +4,6 @@ public class Calculator {
     public static void main(String[] args) {
         int number1;
         int number2;
-
         String operation;
         Scanner input = new Scanner(System.in);
 
@@ -14,9 +13,9 @@ public class Calculator {
         System.out.println("Enter the second number");
         number2 = input.nextInt();
 
-        Scanner opp = new Scanner(System.in);
+
         System.out.println("Enter operation");
-        operation = opp.next();
+        operation = input.next();
 
         if (operation.equals("+")) {
             System.out.println("Your answer is " + (number1 + number2));
@@ -27,12 +26,11 @@ public class Calculator {
         } else if (operation.equals("*")) {
             System.out.println("Your answer is " + (number1 * number2));
         } else if (operation.equals("^")) {
-            System.out.println("Your answer is " + Math.pow(number1, number2));
+            System.out.println("Your answer is " + (number1 ^ number2));
         } else if (operation.equals("%")) {
             System.out.println("Your answer is " + (number1 % number2));
         } else {
             System.out.println("Wrong selection");
         }
-
     }
 }
