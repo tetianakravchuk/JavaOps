@@ -4,18 +4,18 @@ public class Calculator {
     public static void main(String[] args) {
         int number1;
         int number2;
-
         String operation;
+        long result = 1;
         Scanner input = new Scanner(System.in);
 
         System.out.println("Enter the first number");
         number1 = input.nextInt();
 
-        System.out.println("Enter the second number");
-        number2 = input.nextInt();
-
         System.out.println("Enter operation");
         operation = input.next();
+
+        System.out.println("Enter the second number");
+        number2 = input.nextInt();
 
         if (operation.equals("+")) {
             System.out.println("Your answer is " + (number1 + number2));
@@ -26,11 +26,11 @@ public class Calculator {
         } else if (operation.equals("*")) {
             System.out.println("Your answer is " + (number1 * number2));
         } else if (operation.equals("^")) {
-            int temp = number1;
-            for (int i = 1; i < number2; i++){
-                temp = temp * temp;
+            while (number2 != 0) {
+                result *= number1;
+                --number2;
             }
-            System.out.println("Result of " + number1+ " power "+ number2 + " is " + temp);
+            System.out.println("Result is " + result);
         } else if (operation.equals("%")) {
             System.out.println("Your answer is " + (number1 % number2));
         } else {
