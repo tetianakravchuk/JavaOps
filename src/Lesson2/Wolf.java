@@ -1,3 +1,5 @@
+package Lesson2;
+
 public class Wolf {
  private String sex;
  private String name;
@@ -5,25 +7,9 @@ public class Wolf {
  private int age;
  private String color;
 
- public void walk() {
 
- }
 
- public void sit() {
 
- }
-
- public void run() {
-
- }
-
- public void bark() {
-
- }
-
- public void hunt() {
-
- }
 
  public int getAge() {
   return age;
@@ -40,8 +26,7 @@ public class Wolf {
   return color;
  }
 
- public void setColor(String color) {
-  this.color = color;
+ public void setColor(String color) { this.color = color;
  }
 
  public int getWeight() {
@@ -67,4 +52,26 @@ public class Wolf {
  public void setSex(String sex) {
   this.sex = sex;
  }
+
+ public void walk() {
+
+ }
+
+ public void sit() {
+
+ }
+
+ public void run() {
+
+ }
+
+ public void bark() {
+
+ }
+
+ public void hunt() {
+
+ }
+
+
 }

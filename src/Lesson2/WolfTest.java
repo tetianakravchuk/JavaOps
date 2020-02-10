@@ -1,3 +1,7 @@
+package Lesson2;
+
+import Lesson2.Wolf;
+
 public class WolfTest {
     public static void main(String[] args) {
 
@@ -14,7 +18,7 @@ public class WolfTest {
         System.out.println(wolf.getSex());
         System.out.println(wolf.getWeight());
         System.out.println(wolf.getColor());
-        
+
         wolf.run();
         wolf.bark();
         wolf.hunt();

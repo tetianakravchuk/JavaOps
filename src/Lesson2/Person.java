@@ -1,3 +1,5 @@
+package Lesson2;
+
 public class Person {
     String sex = "male";
     String name = "John";
@@ -24,5 +26,4 @@ public class Person {
     public void learnJava() {
 
     }
-
 }

@@ -1,3 +1,5 @@
+package Lesson2;
+
 import com.sun.tools.corba.se.idl.StructEntry;
 
 public class Variable {
